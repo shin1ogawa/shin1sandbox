@@ -10,6 +10,7 @@ find . -name *jsr107cache*.jar | xargs rm
 $APPENGINE_SDK/bin/appcfg.sh update spinupCheck01/war
 $APPENGINE_SDK/bin/appcfg.sh update spinupCheck02/war
 $APPENGINE_SDK/bin/appcfg.sh update spinupCheck03/war
+$APPENGINE_SDK/bin/appcfg.sh update spinupCheck05/war
 
 APPENGINE_SDK=/Applications/GoogleAppEngineLauncher.app/Contents/Resources/GoogleAppEngine-default.bundle/Contents/Resources/google_appengine
 
